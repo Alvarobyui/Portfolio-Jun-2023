@@ -1,9 +1,9 @@
 import styles from "./HeroArea.module.css";
-
+import myPhoto from "../assets/myphoto.png";
 export const HeroArea = () => {
   return (
     <section className={styles.wrapper}>
-      <img className={styles.profile} src="/assets/profile.png" alt="profile" />
+      <img className={styles.profile} src={myPhoto} alt="profile" />
       <h1 className="title">Hi, I am Alvaro!</h1>
       <p className="description">
         An aspiring web developer looking for a new role in tech

@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 
 import { navbar } from "../content/navbar";
 
-import profile from "../assets/profile.png";
+import myphoto from "../assets/myphoto.png";
 
 import hamburger from "../assets/actions/hamburger.png";
 
@@ -30,7 +30,7 @@ export const Header = () => {
   return (
     <header className={styles.wrapper}>
       <div className={styles.brand}>
-        <img className={styles.icon} src={profile} alt="profile" />
+        <img className={styles.icon} src={myphoto} alt="profile" />
         <h1 className={styles.logo}>Portfolio</h1>
       </div>
       {!mobileNavigation && isMobile ? (

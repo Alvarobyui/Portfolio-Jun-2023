@@ -1,5 +1,7 @@
 import styles from "./Contacts.module.css";
 
+import sendIcon from "../assets/actions/send.png";
+
 export const Contacts = () => {
   return (
     <form
@@ -33,7 +35,7 @@ export const Contacts = () => {
           required
         />
         <button className={styles.send} type="submit">
-          <img className={styles.icon} src="/assets/actions/send.png" alt="" />
+          <img className={styles.icon} src={sendIcon} alt="" />
         </button>
       </div>
     </form>
