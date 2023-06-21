@@ -3,13 +3,23 @@ import graduationIcon from "../assets/about/graduation.png"
 
 export const about = [
   {
-    title: "Web Developer",
-    duration: "Aug 2018 - Sept 2022",
+    title: "BYU - Idaho",
+    duration: "Apr 2021 - Jun 2023",
     icon: expeIcon,
   },
   {
-    title: "Funval University",
-    duration: "May 2023 - Jun 2023",
+    title: "Web Frontend Certification",
+    duration: "Jul 2023",
+    icon: graduationIcon,
+  },
+  {
+    title: "TEFL Certification",
+    duration: "Oct 2022",
+    icon: graduationIcon,
+  },
+  {
+    title: "Computer Programming Certification",
+    duration: "Apr 2022",
     icon: graduationIcon,
   },
 ];

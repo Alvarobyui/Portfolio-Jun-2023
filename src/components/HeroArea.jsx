@@ -6,7 +6,7 @@ export const HeroArea = () => {
       <img className={styles.profile} src={myPhoto} alt="profile" />
       <h1 className="title">Hi, I am Alvaro!</h1>
       <p className="description">
-        An aspiring web developer looking for a new role in tech
+        An aspiring web frontend developer looking for a new role in tech
       </p>
       <div className={styles.buttonBox}>
         <button
