@@ -22,7 +22,7 @@ export const projects = [
     title: "Cheescake Recipe",
     description: "A responsive blog site of a recipe applying CSS and design techniques",
     image: recipeImg,
-    link: "www.youtube.com"
+    link: "https://alvarobyui.github.io/Cheessecake_recipe_site/"
   },
   {
     title: "Online marketplace for accommodations",
