@@ -3,7 +3,7 @@ import recipeImg from "../assets/projects/Dessert_Isometric.png"
 import gameImg from "../assets/projects/Winners_Isometric.png"
 import houstonImg from "../assets/projects/Houston_Isometric.png"
 import houseImg from "../assets/projects/Real Estate Agent_Monochromatic.png"
-
+import multimediaImg from "../assets/projects/multimedia.png"
 
 export const projects = [
   {
@@ -16,13 +16,13 @@ export const projects = [
     title: "Tic Tac Toe",
     description: "A Tic Tac Toe game implemented in React",
     image: tictactoeImg,
-    link: "youtube.com"
+    link: "https://alvarobyui.github.io/Tic-Tac-Toe/"
   },
   {
     title: "Cheescake Recipe",
     description: "A responsive blog site of a recipe applying CSS and design techniques",
     image: recipeImg,
-    link: "youtube.com"
+    link: "www.youtube.com"
   },
   {
     title: "Online marketplace for accommodations",
@@ -35,5 +35,11 @@ export const projects = [
     description: "A Tic Tac Toe game implemented in Python",
     image: gameImg,
     link: "https://github.com/Alvarobyui/cse210-01"
+  },
+  {
+    title: "Tip Calculator",
+    description: "A demo in pure JavaScript that calculates how much a client should pay for their bill after adding a tip.",
+    image: multimediaImg,
+    link: "https://alvarobyui.github.io/Final_proyecto-Funval/"
   },
 ];
