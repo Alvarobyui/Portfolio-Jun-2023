@@ -40,6 +40,6 @@ export const projects = [
     title: "Tip Calculator",
     description: "A demo in pure JavaScript that calculates how much a client should pay for their bill after adding a tip.",
     image: multimediaImg,
-    link: "https://alvarobyui.github.io/Final_proyecto-Funval/"
+    link: "https://alvarobyui.github.io/Tip-Calculator/"
   },
 ];
