@@ -3,7 +3,7 @@ import recipeImg from "../assets/projects/Dessert_Isometric.png"
 import gameImg from "../assets/projects/Winners_Isometric.png"
 import houstonImg from "../assets/projects/Houston_Isometric.png"
 import houseImg from "../assets/projects/Real Estate Agent_Monochromatic.png"
-import multimediaImg from "../assets/projects/multimedia.png"
+import calculatorImg from "../assets/projects/Data_Arranging_Monochromatic.png"
 
 export const projects = [
   {
@@ -39,7 +39,7 @@ export const projects = [
   {
     title: "Tip Calculator",
     description: "A demo in pure JavaScript that calculates how much a client should pay for their bill after adding a tip.",
-    image: multimediaImg,
+    image: calculatorImg,
     link: "https://alvarobyui.github.io/Tip-Calculator/"
   },
 ];
