@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className={styles.wrapper}>
       <h1 className={styles.title}>Alvaro Diaz</h1>
-      <p>Las Joyas, San Sebastián</p>
+      <p>Cusco, Perú</p>
       <p>+51 924126535 | alvaro.m.diaz@gmail.com</p>
       <div className={styles.socials}>
         <a href="https://github.com/Alvarobyui" target="blank">
