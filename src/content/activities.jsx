@@ -1,14 +1,14 @@
 export const activities = [
   {
-    title: "100DaysOfCode",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    title: "Git and GitHub",
+    text: "I can work with these technologies that enhance teamwork effectiveness",
   },
   {
-    title: "JSConf Speaker",
-    text: "Maecenas lectus massa, tincidunt et lectus non, volutpat gravida",
+    title: "Fascination for learning",
+    text: "I love learning and applying new concepts and technologies",
   },
   {
-    title: "ReactConf Attendee",
-    text: "Proin risus urna, posuere id lectus id, venenatis faucibus ligula",
+    title: "Volunteer or Intership",
+    text: "I am available for volunteering in order to enhance my skills and personal growth",
   },
 ];
