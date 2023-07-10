@@ -8,6 +8,8 @@ import myphoto from "../assets/myphoto.png";
 
 import hamburger from "../assets/actions/hamburger.png";
 
+/* import { useTranslation } from "react-i18next"; */
+
 export const Header = () => {
   const [mobileNavigation, setMobileNavigation] = useState(false);
   const [windowDimension, setWindowDimension] = useState(null);
@@ -26,6 +28,8 @@ export const Header = () => {
   }, []);
 
   const isMobile = windowDimension <= 700;
+
+/*   const { t } = useTranslation(); */
 
   return (
     <header className={styles.wrapper}>
