@@ -1,11 +1,17 @@
 import tictactoeImg from "../assets/projects/Tic_tac_toe_generated-vecteezy.com.jpg"
-import recipeImg from "../assets/projects/Dessert_Isometric.png"
+import weatherImg from "../assets/projects/weather-app.png"
 import gameImg from "../assets/projects/Winners_Isometric.png"
 import houstonImg from "../assets/projects/Houston_Isometric.png"
 import houseImg from "../assets/projects/Real Estate Agent_Monochromatic.png"
 import calculatorImg from "../assets/projects/Data_Arranging_Monochromatic.png"
 
 export const projects = [
+  {
+    title: "Forecast App",
+    description: "A responsive, adaptative, weather and forecast application",
+    image: weatherImg,
+    link: "https://forecast-weather-web-app.vercel.app/"
+  },
   {
     title: "Temple Inn & Suits website",
     description: "A fully responsive website to view amenities, check the weather in the current location using an API, and book accommodations at a hotel.",
@@ -17,12 +23,6 @@ export const projects = [
     description: "A Tic Tac Toe game implemented in React",
     image: tictactoeImg,
     link: "https://alvarobyui.github.io/Tic-Tac-Toe/"
-  },
-  {
-    title: "Cheescake Recipe",
-    description: "A responsive blog site of a recipe applying CSS and design techniques",
-    image: recipeImg,
-    link: "https://alvarobyui.github.io/Cheessecake_recipe_site/"
   },
   {
     title: "Online marketplace for accommodations",
