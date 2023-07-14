@@ -8,7 +8,7 @@ import calculatorImg from "../assets/projects/Data_Arranging_Monochromatic.png"
 export const projects = [
   {
     title: "Forecast App",
-    description: "A responsive, adaptative, weather and forecast application",
+    description: "A responsive, adaptive, weather and forecast application implemented in Next.",
     image: weatherImg,
     link: "https://forecast-weather-web-app.vercel.app/"
   },
@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     title: "Tic Tac Toe",
-    description: "A Tic Tac Toe game implemented in React",
+    description: "A Tic Tac Toe game implemented in React.",
     image: tictactoeImg,
     link: "https://alvarobyui.github.io/Tic-Tac-Toe/"
   },
