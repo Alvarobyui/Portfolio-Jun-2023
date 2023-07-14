@@ -8,7 +8,7 @@ import calculatorImg from "../assets/projects/Data_Arranging_Monochromatic.png"
 export const projects = [
   {
     title: "Forecast App",
-    description: "A responsive, adaptive, weather and forecast application implemented in Next.",
+    description: "A responsive, adaptive, forecast application implemented in Next.",
     image: weatherImg,
     link: "https://forecast-weather-web-app.vercel.app/"
   },
