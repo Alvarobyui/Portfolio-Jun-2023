@@ -1,11 +1,17 @@
 import tictactoeImg from "../assets/projects/Tic_tac_toe_generated-vecteezy.com.jpg"
 import weatherImg from "../assets/projects/weather-app.png"
-import gameImg from "../assets/projects/Winners_Isometric.png"
 import houstonImg from "../assets/projects/Houston_Isometric.png"
 import houseImg from "../assets/projects/Real Estate Agent_Monochromatic.png"
 import calculatorImg from "../assets/projects/Data_Arranging_Monochromatic.png"
-
+import UniversityImg from "../assets/projects/university.png"
+ 
 export const projects = [
+  {
+    title: "Student Information System with roles",
+    description: "A web application that manages permissions, registers students and teachers, and is divided by roles. It also allows for inputting academic grades, editing data, uploading scores, and displaying course information for students.",
+    image: UniversityImg,
+    link: "https://universidadwebapp.000webhostapp.com/"
+  },
   {
     title: "Forecast App",
     description: "A responsive, adaptive, forecast application implemented in Next.",
@@ -29,12 +35,6 @@ export const projects = [
     description: "A fully responsive site similar to Airbnb displaying information from a JSON file or API that has a funtional search box. This has been implemented in React",
     image: houseImg,
     link: "https://alvarobyui.github.io/Mini-project/#"
-  },
-  {
-    title: "Game in Python",
-    description: "A Tic Tac Toe game implemented in Python",
-    image: gameImg,
-    link: "https://github.com/Alvarobyui/cse210-01"
   },
   {
     title: "Tip Calculator",
