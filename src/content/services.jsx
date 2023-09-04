@@ -6,14 +6,19 @@ import bilingual from "../assets/services/Bilingual.png"
 
 export const services = [
   {
-    icon: colorWheel,
-    title: "Web design",
-    description: "Analyze and apply principles of design, typography, color, and photography to create various design projects",
+    icon: UI,
+    title: "Web backend development",
+    description: "Equipped with essential knowledge in Database Management, API Development, and Security. Familiar with MySQL/Eloquent, PHP, Laravel, and Python",
   },
   {
     icon: designer,
     title: "Web frontend development",
-    description: "Advanced knoledge of HTML, CSS, SASS, JavaScript, React, and Next.",
+    description: "Advanced knoledge of HTML, CSS, SASS, Tailwind, JavaScript, React, and Next.",
+  },
+  {
+    icon: colorWheel,
+    title: "Web design",
+    description: "Analyze and apply principles of design, typography, color, and photography to create various design projects",
   },
   {
     icon: teamWork,
