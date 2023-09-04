@@ -13,7 +13,7 @@ export const projects = [
     link: "https://universidadwebapp.000webhostapp.com/"
   },
   {
-    title: "School API (Laravel)",
+    title: "School API - (Laravel)",
     description: "An API implemented in Laravel to record the attendance of students in a course, encompassing students, teachers, and courses. ",
     image: UniversityImg,
     link: "https://github.com/Alvarobyui/small_school_API"
@@ -25,7 +25,7 @@ export const projects = [
     link: "https://forecast-weather-web-app.vercel.app/"
   },
   {
-    title: "Tic Tac Toe (React JS)",
+    title: "Tic Tac Toe - (React JS)",
     description: "A Tic Tac Toe game implemented in React.",
     image: tictactoeImg,
     link: "https://alvarobyui.github.io/Tic-Tac-Toe/"

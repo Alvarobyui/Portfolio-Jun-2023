@@ -1,7 +1,7 @@
 export const navbar = [
-  { title: "About" },
-  { title: "Projects" },
   { title: "Services" },
+  { title: "Projects" },
+  { title: "About" },
   { title: "Activities" },
   { title: "Contact" },
 ];
