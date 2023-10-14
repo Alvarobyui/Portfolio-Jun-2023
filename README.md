@@ -1,4 +1,4 @@
 Autor: Alvaro Diaz
 Proyecto: Portafolio
 
-Tarea: Deploy para práctica calificada del dia 10 - Nivel 2 - Funval
+Descripción: Un vistazo a mis mejores proyectos, mi especialidades y mi información de contacto.
