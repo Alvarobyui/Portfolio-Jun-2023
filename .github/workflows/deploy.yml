@@ -2,7 +2,7 @@
 name: Implementar contenido estático a Pages
 
 on:
-  # Se ejecuta en anotaciones dirigidas a la rama predeterminada
+  # Se ejecuta en anotaciones dirigidas a la rama predeterminada a master
   push:
     branches: ['master']
 
