@@ -4,10 +4,10 @@ import styles from "./Header.module.css";
 
 import { navbar } from "../content/navbar";
 
-import myphoto from "../assets/myphoto.png";
+/* import myphoto from "../assets/myphoto.png";
 
 import hamburger from "../assets/actions/hamburger.png";
-
+ */
 /* import { useTranslation } from "react-i18next"; */
 
 export const Header = () => {
@@ -34,7 +34,7 @@ export const Header = () => {
   return (
     <header className={styles.wrapper}>
       <div className={styles.brand}>
-        <img className={styles.icon} src={myphoto} alt="profile" />
+        <img className={styles.icon} src="/assets/myphoto.png" alt="profile" />
         <h1 className={styles.logo}>Portfolio</h1>
       </div>
       {!mobileNavigation && isMobile ? (
@@ -44,7 +44,7 @@ export const Header = () => {
             setMobileNavigation(true);
             document.body.style.overflow = "hidden";
           }}
-          src={hamburger}
+          src="/assets/actions/hamburger.png"
           alt="menu"
         />
       ) : (

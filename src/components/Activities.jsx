@@ -3,9 +3,9 @@ import { activities } from "../content/activities";
 
 import styles from "./Activities.module.css";
 
-import leftArrowIcon from "../assets/actions/left-arrow.png";
+/* import leftArrowIcon from "../assets/actions/left-arrow.png";
 import rightArrowIcon from "../assets/actions/right-arrow.png";
-
+ */
 export const Activities = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -21,8 +21,8 @@ export const Activities = () => {
       >
         <img
           className={styles.icon}
-          src={leftArrowIcon}
-          alt=""
+          src="/assets/actions/left-arrow.png"
+          alt="left-arrow"
         />
       </button>
       <div className={styles.content}>
@@ -41,8 +41,8 @@ export const Activities = () => {
       >
         <img
           className={styles.icon}
-          src={rightArrowIcon}
-          alt=""
+          src="/assets/actions/right-arrow.png"
+          alt="right-arrow"
         />
       </button>
     </section>

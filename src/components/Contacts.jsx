@@ -1,7 +1,7 @@
 import styles from "./Contacts.module.css";
 import { useState } from "react";
-import sendIcon from "../assets/actions/send.png";
-
+/* import sendIcon from "../assets/actions/send.png";
+ */
 export const Contacts = () => {
   const[result, setResult] = useState("");
   
@@ -59,7 +59,7 @@ export const Contacts = () => {
           required
         />
         <button className={styles.send} type="submit">
-          <img className={styles.icon} src={sendIcon} alt="" />
+          <img className={styles.icon} src="/assets/actions/send.png" alt="" />
         </button>
       </div>
       <p className={styles.result}>{result}</p>
