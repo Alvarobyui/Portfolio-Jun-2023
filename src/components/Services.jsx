@@ -1,8 +1,9 @@
 import styles from "./Services.module.css";
 
-import { services } from "../content/services";
+import { ServicesContent } from "../content/services";
 
 export const Services = () => {
+  const services = ServicesContent();
   return (
     <section className={styles.wrapper}>
       {services.map((service, index) => {

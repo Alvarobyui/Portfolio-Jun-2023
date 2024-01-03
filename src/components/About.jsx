@@ -1,11 +1,12 @@
 import styles from "./About.module.css";
 
-import { about } from "../content/about";
+import { AboutContent } from "../content/about";
 
 export const About = () => {
+  const aboutData = AboutContent();
   return (
     <section className={styles.wrapper}>
-      {about.map((item, index) => {
+      {aboutData.map((item, index) => {
         return (
           <div className={styles.card} key={index}>
             <div className={styles.info}>

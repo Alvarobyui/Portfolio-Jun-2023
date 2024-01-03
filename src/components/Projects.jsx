@@ -1,8 +1,9 @@
 import styles from "./Projects.module.css";
 
-import { projects } from "../content/projects";
+import { ProjectsContent } from "../content/projects";
 
 export const Projects = () => {
+  const projects = ProjectsContent();
   return (
     <section className={styles.wrapper}>
       {projects.map((project, index) => {

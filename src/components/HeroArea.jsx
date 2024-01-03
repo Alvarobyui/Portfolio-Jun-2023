@@ -1,15 +1,16 @@
 import styles from "./HeroArea.module.css";
 /* import myPhoto from "../assets/myphoto.png";
- *//* import { useTranslation } from "react-i18next"; */
+ */
+import { useTranslation } from "react-i18next";
 
 export const HeroArea = () => {
- /*  const { t } = useTranslation(); */
+  const { t } = useTranslation("heroArea");
   return (
     <section className={styles.wrapper}>
       <img className={styles.profile} src="/assets/myphoto.png" alt="profile" />
-      <h1 className="title">Hi, I am Alvaro!</h1>
+      <h1 className="title">{t("title")}</h1>
       <p className="description">
-      An aspiring web fullstack developer looking for a new role in tech
+      {t("description")}
       </p>
       <div className={styles.buttonBox}>
         <button
@@ -20,7 +21,7 @@ export const HeroArea = () => {
               .scrollIntoView({ behavior: "smooth" });
           }}
         >
-          My projects
+          {t("projects")}
         </button>
         <button
           className={`${styles.button} ${styles.hire}`}
@@ -30,7 +31,7 @@ export const HeroArea = () => {
               .scrollIntoView({ behavior: "smooth" });
           }}
         >
-          Hire me
+          {t("hireMe")}
         </button>
       </div>
     </section>

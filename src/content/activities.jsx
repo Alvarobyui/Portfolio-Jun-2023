@@ -1,14 +1,22 @@
-export const activities = [
-  {
-    title: "Git and GitHub",
-    text: "I can work with these technologies that enhance teamwork effectiveness",
-  },
-  {
-    title: "Fascination for learning",
-    text: "I love learning and applying new concepts and technologies",
-  },
-  {
-    title: "Volunteer or Intership",
-    text: "I am available for volunteering in order to enhance my skills and personal growth",
-  },
-];
+import { useTranslation } from "react-i18next";
+
+export function ActivitiesContent() {
+  const { t } = useTranslation('activities');
+
+  const activitiesData = [
+    {
+      title: t("0.title"),
+      text: t("0.text"),
+    },
+    {
+      title: t("1.title"),
+      text: t("1.text"),
+    },
+    {
+      title: t("2.title"),
+      text: t("2.text"),
+    },
+  ];
+
+  return activitiesData;
+}

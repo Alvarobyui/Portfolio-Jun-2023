@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Pronóstico del Clima - (Next JS)",
+    "description": "Una aplicación de pronóstico del clima adaptativa, implementada en Next."
+  },
+  {
+    "title": "Sitio web de Temple Inn & Suits",
+    "description": "Un sitio web (Frontend) completamente adaptativo para ver comodidades, consultar el clima en la ubicación actual utilizando una API y reservar alojamiento en el hotel."
+  },
+  {
+    "title": "Sistema de Información Estudiantil con roles - (PHP)",
+    "description": "Una aplicación web que gestiona permisos, registra estudiantes y profesores, y está dividida por roles. También permite ingresar calificaciones académicas, editar datos, subir puntajes y mostrar información del curso para los estudiantes."
+  },
+  {
+    "title": "Tic Tac Toe - (React JS)",
+    "description": "Un juego de Tic Tac Toe implementado en React."
+  },
+  {
+    "title": "Calculadora de Propinas",
+    "description": "Una demostración en JavaScript puro que calcula cuánto debe pagar un cliente por su factura después de agregar una propina."
+  },
+  {
+    "title": "Mercado en línea de alojamientos",
+    "description": "Un sitio completamente adaptativo (Frontend) similar a Airbnb que muestra información de un archivo JSON o API y tiene un cuadro de búsqueda funcional. Ha sido implementado en React."
+  },
+  {
+    "title": "API Escolar - (Laravel)",
+    "description": "Una API implementada en Laravel para registrar la asistencia de estudiantes en un curso, que abarca estudiantes, profesores y cursos."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+  "title": "Desarrollo web backend",
+  "description": "Equipado con conocimientos esenciales en gestión de bases de datos, desarrollo de API y seguridad. Familiarizado con MySQL/Eloquent, PHP, Laravel y Python."
+  },
+  {
+  "title": "Desarrollo web frontend",
+  "description": "Conocimiento avanzado de HTML, CSS, SASS, Tailwind, JavaScript, React y Next."
+  },
+  {
+  "title": "Diseño web",
+  "description": "Analizo y aplico principios de diseño, tipografía, color y fotografía para crear diversos proyectos de diseño."
+  },
+  {
+  "title": "Experto en trabajo en equipo",
+  "description": "Demuestro las cualidades de un miembro influyente del equipo y conocimientos avanzados en SCRUM, Git y GitHub."
+  },
+  {
+  "title": "Aplicación de programación informática",
+  "description": "Escribo código operativo con el paradigma de programación orientada a objetos."
+  },
+  {
+  "title": "Competencia bilingüe",
+  "description": "Hablo español perfectamento, tengo un nivel avanzado en inglés (B2/C1) y habilidades comunicativas efectivas en ambos idiomas."
+  }
+]
