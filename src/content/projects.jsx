@@ -43,6 +43,7 @@ export function ProjectsContent() {
       {
         title: t("5.title"),
         description: t("5.description"),
+        image: "/assets/projects/Real Estate Agent_Monochromatic.png",
         link: "https://alvarobyui.github.io/Mini-project/#"
       },
       {
