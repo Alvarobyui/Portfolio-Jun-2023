@@ -2,12 +2,15 @@ import styles from "./Contacts.module.css";
 import { useState } from "react";
 /* import sendIcon from "../assets/actions/send.png";
  */
+import { useTranslation } from "react-i18next";
+
 export const Contacts = () => {
+  const { t } = useTranslation("contact");
   const[result, setResult] = useState("");
   
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending...");
+    setResult(t("sending"));
     const formData = new FormData(event.target);
     
     formData.append("access_key", "ce3069e4-d8d4-4039-b966-562795683b98");
@@ -19,7 +22,7 @@ export const Contacts = () => {
 
     if (res.success) {
       console.log("Success", res);
-      setResult("Sent! Thank you for contacting me");
+      setResult(t("sent"));
     } else {
       console.log("Error", res);
       setResult(res.message);
@@ -39,14 +42,14 @@ export const Contacts = () => {
           className={styles.input}
           type="text"
           name="name"
-          placeholder="Your name"
+          placeholder={t("yourName")}
           required
         />
         <input
           className={styles.input}
           type="email"
           name="email"
-          placeholder="Your email"
+          placeholder={t("yourEmail")}
           required
         />
       </div>
@@ -55,7 +58,7 @@ export const Contacts = () => {
           className={styles.textarea}
           type="text"
           name="message"
-          placeholder="Your message"
+          placeholder={t("yourMessage")}
           required
         />
         <button className={styles.send} type="submit">

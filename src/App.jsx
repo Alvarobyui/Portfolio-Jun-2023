@@ -1,53 +1,64 @@
-import { Header } from "./components/Header";
-import { HeroArea } from "./components/HeroArea";
-import { About } from "./components/About";
-import { Services } from "./components/Services";
-import { Projects } from "./components/Projects";
-import { Activities } from "./components/Activities";
-import { Contacts } from "./components/Contacts";
-import { Footer } from "./components/Footer";
+  import { Header } from "./components/Header";
+  import { HeroArea } from "./components/HeroArea";
+  import { About } from "./components/About";
+  import { Services } from "./components/Services";
+  import { Projects } from "./components/Projects";
+  import { Activities } from "./components/Activities";
+  import { Contacts } from "./components/Contacts";
+  import { Footer } from "./components/Footer";
 
-import "./index.css";
+  import "./index.css";
 
-/* import { I18nextProvider } from 'react-i18next'; */
-/* import i18n from './languages/i18n.jsx'; */
-/* import { useTranslation } from "react-i18next"; */
+  import { useTranslation } from 'react-i18next';
+  // eslint-disable-next-line no-unused-vars
+  import i18n from './locales/i18n';
+  /* import { useTranslation } from "react-i18next"; */
 
+  export default function App() {
+    const { t, i18n } = useTranslation();
 
-export default function App() {
-/*   const { t } = useTranslation(); */
-  return (
-    /* <I18nextProvider i18n={i18n}> */
-      <div className="App">
-        <Header />
-        <HeroArea />
-        <h1 id="services" className="title">
-          My services
-        </h1>
-        <p className="description">How I can help you</p>
-        <Services />
-        <h1 id="projects" className="title">
-          My Projects
-        </h1>
-        <p className="description">Highlights of my best work</p>
-        <Projects />
-        <h1 id="about" className="title">
-          About me
-        </h1>
-        <p className="description">My experience and education</p>
-        <About />
-        <h1 id="activities" className="title">
-          Activities
-        </h1>
-        <p className="description">My interests and volunteering activities</p>
-        <Activities />
-        <h1 id="contact" className="title">
-          Let us connect
-        </h1>
-        <p className="description">I am available to work!</p>
-        <Contacts />
-        <Footer />
-      </div>
-    /* </I18nextProvider> */
-  );
-}
+    return (
+        <div className="App">
+          <Header />
+          <div className="language-switch">
+            <p>
+            Language:
+            </p>
+            <label className="switch">
+              <input className="cb" type="checkbox" />
+              <span className="toggle">
+                <span className="left" onClick={() => i18n.changeLanguage('en')}>En</span>
+                <span className="right" onClick={() => i18n.changeLanguage('es')}>Es</span>
+              </span>
+            </label>
+          </div>
+          <HeroArea />
+          <h1 id="services" className="title">
+            {t('MyServices')}
+          </h1>
+          <p className="description">{t('HowICanHelpYou')}</p>
+          <Services />
+          <h1 id= "projects" className="title">
+            {t('MyProjects')}
+          </h1>
+          <p className="description">{t('HighlightsOfMyBestWork')}</p>
+          <Projects />
+          <h1 id="about" className="title">
+            {t("AboutMe")}
+          </h1>
+          <p className="description">{t("MyExperienceAndEducation")}</p>
+          <About />
+          <h1 id="activities" className="title">
+            {t("Activities")}
+          </h1>
+          <p className="description">{t("MyInterestsAndActivities")}</p>
+          <Activities />
+          <h1 id="contact" className="title">
+            {t("LetUsConnect")}
+          </h1>
+          <p className="description">{t("IAmAvailableToWork")}</p>
+          <Contacts />
+          <Footer />
+        </div>
+    );
+  }

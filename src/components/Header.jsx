@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import styles from "./Header.module.css";
 
-import { navbar } from "../content/navbar";
+import { NavbarContent } from "../content/navbar";
 
 /* import myphoto from "../assets/myphoto.png";
 
@@ -13,6 +13,7 @@ import hamburger from "../assets/actions/hamburger.png";
 export const Header = () => {
   const [mobileNavigation, setMobileNavigation] = useState(false);
   const [windowDimension, setWindowDimension] = useState(null);
+  const navbar = NavbarContent();
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);

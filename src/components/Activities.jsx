@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { activities } from "../content/activities";
+import { ActivitiesContent } from "../content/activities";
 
 import styles from "./Activities.module.css";
 
@@ -8,6 +8,7 @@ import rightArrowIcon from "../assets/actions/right-arrow.png";
  */
 export const Activities = () => {
   const [activeSlide, setActiveSlide] = useState(0);
+  const activitiesData = ActivitiesContent();
 
   return (
     <section className={styles.wrapper}>
@@ -16,7 +17,7 @@ export const Activities = () => {
         onClick={() => {
           activeSlide
             ? setActiveSlide(activeSlide - 1)
-            : setActiveSlide(activities.length - 1);
+            : setActiveSlide(activitiesData.length - 1);
         }}
       >
         <img
@@ -27,14 +28,14 @@ export const Activities = () => {
       </button>
       <div className={styles.content}>
         <div>
-          <h2 className={styles.title}>{activities[activeSlide].title}</h2>
-          <p className={styles.text}>{activities[activeSlide].text}</p>
+          <h2 className={styles.title}>{activitiesData[activeSlide].title}</h2>
+          <p className={styles.text}>{activitiesData[activeSlide].text}</p>
         </div>
       </div>
       <button
         className={styles.button}
         onClick={() => {
-          activeSlide + 1 < activities.length
+          activeSlide + 1 < activitiesData.length
             ? setActiveSlide(activeSlide + 1)
             : setActiveSlide(0);
         }}
